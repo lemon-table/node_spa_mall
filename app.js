@@ -46,6 +46,7 @@ app.get("/:id",(req,res)=>{
 //localhost:3000/api -> goodRouter
 // app.use("/api",goodsRouter);
 
+
 app.listen(port,()=>{
     console.log(port,'포트로 서버가 열렸어요!');
 });
